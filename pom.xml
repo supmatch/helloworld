@@ -9,19 +9,19 @@ http://maven.apache.ort/maven-v4_0_0.xsd">
         <version>1.0-SNAPSHOT</version>
         <name>Maven Hello World Project</name>
 <build> 
-       
-<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-jar-plugin</artifactId>
-		<configuration>
+	<plugins>   
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<configuration>
 			 <archive>
 			  <manifest>
 				   <addClasspath>true</addClasspath>
 				   <mainClass>com.sf.app.helloworld.HelloWorld</mainClass>
 			  </manifest>
 			 </archive>
-		</configuration>
-    </plugin>
-         </plugins> 
-     </build>  
+			</configuration>
+    		</plugin>
+        </plugins> 
+</build>  
 </project>
